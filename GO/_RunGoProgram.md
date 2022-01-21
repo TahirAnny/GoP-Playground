@@ -1,7 +1,7 @@
 ## The environment Used
 
-Windows 10
-Visual Studio Code 1.63.2 (user setup)
+* Windows 10
+* Visual Studio Code 1.63.2 (user setup)
 
 ## Steps to run GO code with Visual Studio Code: 
 
