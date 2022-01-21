@@ -1,4 +1,9 @@
-Steps to run GO code with Visual Studio Code: 
+## The environment Used
+
+Windows 10
+Visual Studio Code 1.63.2 (user setup)
+
+## Steps to run GO code with Visual Studio Code: 
 
 1. If GO is not installed then [Download GO installer](https://go.dev/dl/) from it's website and install it.
 
@@ -26,7 +31,8 @@ Steps to run GO code with Visual Studio Code:
 
     ```
 
-6. open a terminal (CTRL+`) and execute the following command:                                                                                                                       *go run hello_world.go*. You will see the output below in the terminal.
+6. open a terminal (CTRL+`) and execute the following command: *go run hello_world.go*. You will see the output below in the terminal.
+
 7. If this gives you an error like below
 
    ![error](https://github.com/TahirAnny/GoP-Playground/blob/main/content/go_errror.png)
@@ -35,4 +41,6 @@ Steps to run GO code with Visual Studio Code:
    `$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine")`
 
    To check your default env setting, type `go env` in the terminal.
+
+8. Also [code runner extention](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) for visual studion is a good choice for running GO codes in VS Code.
 
