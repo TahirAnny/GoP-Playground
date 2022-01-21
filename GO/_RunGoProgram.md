@@ -38,7 +38,9 @@
    ![error](https://github.com/TahirAnny/GoP-Playground/blob/main/content/go_errror.png)
 
    then you might check your [Environment Variable](https://go.dev/doc/gopath_code#GOPATH) setup or run the following command
-   `$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine")`
+   `$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine")` <sub>(_This commad will temporarily solve the problem even after adding System environment   \
+   variable in Powershell, For me everytime I was opening VS Code, it was giving me the error until I run the above command. But using Command Prompt instead of Powershell will 
+   solve the issue_)</sub>
 
    To check your default env setting, type `go env` in the terminal.
 
