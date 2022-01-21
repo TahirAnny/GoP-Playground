@@ -1,17 +1,20 @@
 Steps to run GO code with Visual Studio Code: 
 
-    1. If GO is not installed then [Download GO installer](https://go.dev/dl/) from it's website and install it.
-      
-    2. Check the GO Lang version by opening a terminal and type `go version`.
+1. If GO is not installed then [Download GO installer](https://go.dev/dl/) from it's website and install it.
 
-    3. Open Visual Studio Code and go to extention. Search for Go by (Go Team at Google) and install it.
+2. Check the GO Lang version by opening a terminal and type `go version`.
 
-    4. Open the Command Palette `CTRL+SHIFT+P` and run `Go: Install/Update` tools command
-       ![command]()
-    
-       it will give you a list of GO extentions, install all.
+3. Open Visual Studio Code and go to extention. Search for Go by (Go Team at Google) and install it.
 
-    5. Create `hello_world.go` in VS code and write the following code
+4. Open the Command Palette `CTRL+SHIFT+P` and run `Go: Install/Update` tools command
+
+   ![command](https://github.com/TahirAnny/GoP-Playground/blob/main/content/command.png)
+
+   it will give you a list of GO extentions, install all.
+
+5. Create `hello_world.go` in VS code and write the following code
+
+    ```
 
         package main
 
@@ -20,13 +23,16 @@ Steps to run GO code with Visual Studio Code:
         func main() {
             fmt.Println("Hello! Go World!!")
         }
-    6. open a terminal `CTRL+`` and execute the following commant `go run hello_world.go`
 
-    7. If this gives you an error like below
-       ![error]()
+    ```
 
-       then you might check your [Environment Variable](https://go.dev/doc/gopath_code#GOPATH) setup or run the following command
-       `$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine")`
+6. open a terminal (CTRL+`) and execute the following command:                                                                                                                       *go run hello_world.go*. You will see the output below in the terminal.
+7. If this gives you an error like below
 
-       To check your default env setting, type `go env` in the terminal.
+   ![error](https://github.com/TahirAnny/GoP-Playground/blob/main/content/go_errror.png)
+
+   then you might check your [Environment Variable](https://go.dev/doc/gopath_code#GOPATH) setup or run the following command
+   `$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine")`
+
+   To check your default env setting, type `go env` in the terminal.
 
