@@ -48,11 +48,11 @@
 ### Build Programme
 
 1. Open a Terminal (CTRL+`) and choose *Command Prompt*.
-   ![]()
+   ![](https://github.com/TahirAnny/GoP-Playground/blob/main/content/terminal.png)
 
 2. Run the following command `go build hello_world.go` (make sure you are in same directory of the project).
 3. It will create a .exe file in the programme folder, open the folder and you will find this
-   ![]()
+   ![](https://github.com/TahirAnny/GoP-Playground/blob/main/content/build_prog.png)
 
 4. Now in the command prompt just run `.\hello_world`, you will see the output below. This same commad works in the same way from Powershell.
 
